@@ -27,6 +27,12 @@ public class Parts {
     public Parts() {
     }
 
+    public Parts(String cpu, String ram, String os) {
+        this.cpu = cpu;
+        this.ram = ram;
+        this.os = os;
+    }
+
     public Parts(String cpu, String ram, String os, String storage) {
         this.cpu = cpu;
         this.ram = ram;

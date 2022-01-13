@@ -23,7 +23,7 @@ public class PartsController{
 
     @GetMapping("/")
     public String hello() {
-        return "spring boot";
+        return "SpringBoot";
     }
 
     @GetMapping("/allParts")
