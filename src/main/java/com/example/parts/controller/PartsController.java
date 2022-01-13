@@ -23,10 +23,10 @@ public class PartsController{
 
     @GetMapping("/")
     public String hello() {
-        return "springboot";
+        return "spring boot";
     }
 
-    @GetMapping("/retrieveParts")
+    @GetMapping("/allParts")
     public List<Parts> findAll() {
         return partsService.findAll();
     }
